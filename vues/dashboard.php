@@ -4,7 +4,7 @@
 
 <head>
     <title>
-        Erreur
+        Vos listes TODO
     </title>
 </head>
 
@@ -12,7 +12,7 @@
     <nav>
         <div class="header1">
             <h1>
-                Une erreur est survenue
+                TODOList
             </h1>
         </div>
     </nav>
@@ -20,14 +20,15 @@
 
 <body>
 
-
+<div>
     <?php
-    if (isset($Err_array)) {
-        foreach ($Err_array as $Erreur) {
-            echo $Erreur;
+    if (isset($list_Arr)) {
+        foreach ($list_Arr as $ficheTODO) {
+            echo $ficheTODO;
         }
     }
     ?>
+</div>
 </body>
 
 </html>
