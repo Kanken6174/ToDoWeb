@@ -1,0 +1,17 @@
+.LoginContainer {
+    position: relative;
+    top: 50%;
+    transform: perspective(1px) translateY(150%);
+    outline: 5px;
+    outline-color: black;
+    outline-style: double;
+    outline-offset: 10px;
+}
+
+.header1 {
+    background-color: darkcyan;
+}
+
+.bck {
+    background-color: grey;
+}
